@@ -15,38 +15,44 @@
             alt="Trevor"
           /> </v-avatar
       ></a>
-        <a href="https://github.com/trevorbdev" target="_blank"
-          ><v-avatar
-            color="grey"
-            :size="32"
-            class="d-block text-center mx-auto mb-9"
-            ><v-icon dark> mdi-github </v-icon>
-          </v-avatar></a
-        >
-        <a href="/tb.cool.resume.pdf" target="_blank"
-          ><v-avatar
-            color="grey"
-            :size="32"
-            class="d-block text-center mx-auto mb-9"
-            ><v-icon dark> mdi-file </v-icon>
-          </v-avatar></a
-        >
-        <a href="mailto:trevor@innov.dev"
-          ><v-avatar
-            color="grey"
-            :size="32"
-            class="d-block text-center mx-auto mb-9"
-            ><v-icon dark> mdi-email </v-icon>
-          </v-avatar></a
-        >
-        <a href="tel:7854306019"
-          ><v-avatar
-            color="grey"
-            :size="32"
-            class="d-block text-center mx-auto mb-9"
-            ><v-icon dark> mdi-phone </v-icon>
-          </v-avatar></a
-        >
+      <a
+        href="https://github.com/trevorbdev"
+        target="_blank"
+        style="text-decoration: none"
+        ><v-avatar
+          color="grey"
+          :size="32"
+          class="d-block text-center mx-auto mb-9"
+          ><v-icon dark> mdi-github </v-icon>
+        </v-avatar></a
+      >
+      <a
+        href="/tb.cool.resume.pdf"
+        target="_blank"
+        style="text-decoration: none"
+        ><v-avatar
+          color="grey"
+          :size="32"
+          class="d-block text-center mx-auto mb-9"
+          ><v-icon dark> mdi-file </v-icon>
+        </v-avatar></a
+      >
+      <a href="mailto:trevor@innov.dev" style="text-decoration: none"
+        ><v-avatar
+          color="grey"
+          :size="32"
+          class="d-block text-center mx-auto mb-9"
+          ><v-icon dark> mdi-email </v-icon>
+        </v-avatar></a
+      >
+      <a href="tel:7854306019" style="text-decoration: none"
+        ><v-avatar
+          color="grey"
+          :size="32"
+          class="d-block text-center mx-auto mb-9"
+          ><v-icon dark> mdi-phone </v-icon>
+        </v-avatar></a
+      >
     </v-navigation-drawer>
 
     <v-main class="ml-4 mt-4 mr-4">
